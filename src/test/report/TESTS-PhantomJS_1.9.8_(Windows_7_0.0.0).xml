@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 1.9.8 (Windows 7 0.0.0)" package="" timestamp="2015-09-25T17:43:23" id="0" hostname="NI-NTB-020" tests="20" errors="0" failures="0" time="0.014">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34"/>
+  </properties>
+  <testcase name="When name is not Empty" time="0.002" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When name is Empty" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When Last name is not Empty" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When Last name is Empty" time="0.001" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When username is not Empty" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When username is Empty" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When radiobutton is checked" time="0.004" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When password is empty" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When password not empty and length is not correct" time="0.001" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When password not empty and length is correct" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When email is empty" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When is a invalid email" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When is a valid email" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When image is not selected" time="0.005" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When image is selected" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Register Form"/>
+  <testcase name="When username is not Empty" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Log In Form"/>
+  <testcase name="When username is Empty" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Log In Form"/>
+  <testcase name="When password is empty" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Log In Form"/>
+  <testcase name="When password not empty and length is not correct" time="0.001" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Log In Form"/>
+  <testcase name="When password not empty and length is correct" time="0" classname="PhantomJS_1_9_8_(Windows_7_0_0_0).Testing Log In Form"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

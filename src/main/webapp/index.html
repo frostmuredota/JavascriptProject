@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Spring MVC Javascript</title>
+<link href="resources/css/main.css"  rel="stylesheet"/>
+<script type="text/javascript" src="resources/js/presentation/logsession.js"/></script>
+<script type="text/javascript" src="resources/js/validations/validations.js" /></script>
+</head>
+<body>
+		<br>
+	<br>
+	<div class="index">
+		<h2>Loggin Session</h2>
+		<form method="post" action="welcome.html" id="session" novalidate="novalidate" onsubmit="return initsession();">
+			<table align="center">
+				<tr>
+					<td>Username:</td>
+				<td><input name="username" id="username" onclick="return disableLabel()"/></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><input name="password" type="password" id="password" onclick="return disableLabel()"/></td>
+				</tr>
+				<tr>
+				<td colspan=2><input type="submit" name="submit" value="Log In" /></td>
+				</tr>
+			</table>
+		</form>
+		<label id="message" style="color:red"></label><br>
+		<a href="register.html">For register, click here!! </a>
+	</div>
+</body>
+</html>

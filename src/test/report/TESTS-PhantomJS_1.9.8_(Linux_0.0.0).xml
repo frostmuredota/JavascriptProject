@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 1.9.8 (Linux 0.0.0)" package="" timestamp="2015-10-05T18:57:30" id="0" hostname="ramon-Inspiron-5520" tests="18" errors="0" failures="1" time="0.009">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34"/>
+  </properties>
+  <testcase name="When name is not Empty" time="0.002" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input name">
+    <failure type="">Expected true to be falsy.
+Error: Expected true to be falsy.
+    at /home/ramon/Projectss/JavascriptProject/src/test/js/spec/register_spec.js:5
+    at /home/ramon/Projectss/JavascriptProject/node_modules/karma-jasmine/lib/boot.js:117
+    at /home/ramon/Projectss/JavascriptProject/node_modules/karma-jasmine/lib/adapter.js:171
+    at http://localhost:9876/karma.js:190
+    at http://localhost:9876/context.html:56
+</failure>
+  </testcase>
+  <testcase name="When name is Empty" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input name"/>
+  <testcase name="When Last name is not Empty" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input Last name"/>
+  <testcase name="When Last name is Empty" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input Last name"/>
+  <testcase name="When username is not Empty" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input username"/>
+  <testcase name="When username is Empty" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input username"/>
+  <testcase name="When radiobutton is checked" time="0.003" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid radiobutton sex"/>
+  <testcase name="When password is empty" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input password"/>
+  <testcase name="When password not empty and length is not correct" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input password"/>
+  <testcase name="When password not empty and length is correct" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input password"/>
+  <testcase name="When email is empty" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input email"/>
+  <testcase name="When is a invalid email" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input email"/>
+  <testcase name="When is a valid email" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input email"/>
+  <testcase name="When username is not Empty" time="0.002" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input username"/>
+  <testcase name="When username is Empty" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input username"/>
+  <testcase name="When password is empty" time="0.002" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input password"/>
+  <testcase name="When password not empty and length is not correct" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input password"/>
+  <testcase name="When password not empty and length is correct" time="0" classname="PhantomJS_1_9_8_(Linux_0_0_0).Valid input password"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

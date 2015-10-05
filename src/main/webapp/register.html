@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>JavaScript Project</title>
+<link href="resources/css/main.css"  rel="stylesheet"/>
+
+<!-- JAVASCRIPT FILES -->
+<script type="text/javascript" src="scripts/jasmine/jquery.js" /></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="scripts/jasmine/jquery.min.js" /></script>
+<script type="text/javascript" src="resources/js/presentation/register.js"/></script>
+<script type="text/javascript" src="resources/js/validations/validations.js" /></script>
+</head>
+<body>
+	<div class="register">
+		<h2>Register of new User</h2>
+		<form method="post" action="welcome.html" id="register" novalidate="novalidate"  enctype="multipart/form-data">
+			<table align="center">
+				<tr>
+					<td>Name:</td>
+					<td><input name="name" id="name" placeholder="Ex: Ricardo" onclick="return disableLabel()"/></td>
+				</tr>
+				<tr>
+					<td>Last Name:</td>
+					<td><input name="lastn" id="lastn" placeholder="Ex: Fuentes" onclick="return disableLabel()"/></td>
+				</tr>
+				<tr>
+					<td>Username:</td>
+					<td><input name="username" id="username" placeholder="Ex: user1233" onclick="return disableLabel()"/></td>
+				</tr>
+				<tr>
+				   <td>Sex:</td>
+					<td><input type="radio" id="male" value="M" name="gender" onclick="return disableLabel()"/>Male<input type="radio" id="female" value="F" name="gender" onclick="return disableLabel()"/>Female</td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input name="email" id="email" placeholder="Ex: name@company.com" onclick="return disableLabel()"/></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><input name="password" type="password" id="password"  onclick="return disableLabel()"/></td>
+				</tr>
+				<tr>
+				<td colspan=2><input type="submit" id="submit" value="Register" /><input type="reset" value="Clean"/></td>
+				</tr>
+			</table>
+		</form>
+		<label id="message" style="color:red"></label>
+	</div>
+</body>
+</html>
