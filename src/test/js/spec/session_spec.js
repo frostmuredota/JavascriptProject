@@ -1,4 +1,5 @@
 describe("Valid input username", function() {
+    setFixtures('<label id="message" style="color:red"></label>');
     it("When username is not Empty", function() {
         var name = "Ramon";
          var message = "Please complete the field username";

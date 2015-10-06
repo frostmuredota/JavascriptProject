@@ -1,49 +1,24 @@
-    var listmessages = [];
-    function isCorrectPasswordLength(element,message) {
+    function isCorrectPasswordLength(element) {
         var minlength = 6;
         var maxlength = 8;
-        sendMessage(message);
-        if(element >= minlength && element <= maxlength){
-           return true;
-        }else{
-          return false;
-        }
+        return element >= minlength && element <= maxlength;
     };
-    function isValidEmail(element,message) {
+    function isValidEmail(element) {
         var regex = /^([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+\.([a-zA-Z])+([a-zA-Z])+/;
-        sendMessage(message);
-        if(element.match(regex)){
-            return true;
-        }else{
-            return false;
-        }
+        return element.match(regex);
     };
-    function genderSelected(element,message) {
+    function genderSelected(element) {
         var selectedGender = null;
-        sendMessage(message);
         for (var i = 0; i < element.length; i++) {
             if (element[i].checked === true) {
                 selectedGender = element[i].value;
             }
         }
-        if(selectedGender===null){
-           return false;
-        }else{
-          return true;
-        }
+        return selectedGender===null;
     };
-    var isEmpty = function(element,message){
-        sendMessage(message);
-        if(element===0){
-            return true;
-        }else{
-            return false;
-        }
+    var isEmpty = function(element){
+        return element===0;
     };
-    var sendMessage = function(message){
-      listmessages=[];
-      listmessages= [message];
-    };
-    var getListMessages = function(){
-    return listmessages;
+    var disableLabel = function(){
+       document.getElementById("message").innerHTML="";
     };
